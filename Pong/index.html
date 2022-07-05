@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pong</title>
+    <style>
+      * { padding: 0; margin: 0; }
+      canvas { background: rgb(40, 45, 52); display: block; margin: 0 auto; }
+    </style>
+</head>
+<body>
+
+<canvas id="canvas" width="1280" height="720"></canvas>
+<audio data-type="paddle" src="sounds/pong-12_sounds_paddle_hit.wav"></audio>
+<audio data-type="wall" src="sounds/pong-12_sounds_wall_hit.wav"></audio>
+<audio data-type="score" src="sounds/pong-12_sounds_score.wav"></audio>
+
+<script type="module" src="./dist/index.js"></script>
+
+</body>
+</html>
